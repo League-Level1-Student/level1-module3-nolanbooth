@@ -1,7 +1,7 @@
 package _01_intro_to_static;
 
 public class Static_Introthing {
-	public class Athlete {
+	public static class Athlete {
 	    static int nextBibNumber;
 	    static String raceLocation = "New York";
 	    static String raceStartTime = "9.00am";
