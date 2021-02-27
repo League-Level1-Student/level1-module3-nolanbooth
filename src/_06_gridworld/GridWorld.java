@@ -31,9 +31,11 @@ Flower flower2 = new Flower(Color.RED);
 world.add(flowerlocation, flower2);
 for (int i = 0; i < 10; i++) {
 	
-	for (int j = 0; j < 10; i++) {
-		Location location2 =  new Location(i,j);
+	for (int j = 0; j < 10; j++) {
+		Location location2 =  new Location(j,i);
+		Flower flower3 = new Flower();
 		
+		world.add(location2, flower3);	
 	}
 	
 }
